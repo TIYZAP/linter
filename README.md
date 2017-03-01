@@ -1,24 +1,13 @@
-# README
+# HOUND(ZAP) - Personal test environment...
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a mini test environment for HOUND!
 
-Things you may want to cover:
+How to use:
 
-* Ruby version
+* Place suspect code inside the application (Ruby, Javascript, CoffeeScript and SCSS)
 
-* System dependencies
+* Push to github...
 
-* Configuration
+* Hound will review code for style guide violations
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* ... make changes and profit!
