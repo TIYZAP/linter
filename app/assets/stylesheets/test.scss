@@ -1,44 +1,44 @@
-.life-iq {
+.health-iq {
   height: 100%;
   overflow: scroll;
   padding-bottom: 1px;
   width: 100%;
 }
 
-.life-iq-container {
+.health-iq-container {
   padding: 10px;
 }
 
 .header {
+  font-weight: bold;
   height: 2em;
   line-height: 2em;
   padding-left: 1em;
   width: 100%;
-  font-weight: bold;
 }
 
 .header-2 {
+  border-bottom: 1px solid #d8d8d8;
+  font-weight: bold;
   height: 2.5em;
   line-height: 2.5em;
   padding-left: 1em;
   width: 100%;
-  font-weight: bold;
-  border-bottom: 1px solid #d8d8d8;
 }
 
 .glyphicon {
-  top: 3px;
+  float: left;
+  font-size: 1.2em;
   height: 35px;
   line-height: 35px;
   margin-right: 6px;
-  font-size: 1.2em;
-  float: left;
   padding-left: 1em;
+  top: 3px;
 }
 
 .italic {
+  font-size: 10px;
   font-style: italic;
-  font-size: 10px
 }
 
 .body {
@@ -58,41 +58,41 @@
   background-color: $white;
   border-radius: 0 0 2px 2px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12);
-  margin: .5rem 1rem 2rem;
+  margin: 0.5rem 1rem 2rem;
   transition: box-shadow 0.25s;
 }
 
-.iq-life {
+.iq-health {
   @extend %card;
   min-height: 100px;
 }
 
-.filtered-pop-info {
+.filtered-population-information {
   @extend %card;
   min-height: 150px;
 }
 
-.pop-metrics {
+.population-metrics {
   @extend %card;
   min-height: 200px;
 }
 
-.money-spend-breakdown {
+.claims-cost-breakdown {
   @extend %card;
   min-height: 200px;
 }
 
-.sources-of-news  {
+.sources-of-care {
   @extend %card;
   min-height: 200px;
 }
 
-.fake-in-news -compliance {
+.gaps-in-care-compliance {
   @extend %card;
   min-height: 200px;
 }
 
-.all-metrics {
+.utilization-metrics {
   @extend %card;
   min-height: 250px;
 }
