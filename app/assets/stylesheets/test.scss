@@ -18,7 +18,7 @@
 }
 
 .header-2 {
-  border-bottom: 1px solid #d8d8d8;
+  border-bottom: 1px solid $table-border-color;
   font-weight: bold;
   height: 2.5em;
   line-height: 2.5em;
@@ -57,7 +57,7 @@
 %card {
   background-color: $white;
   border-radius: 0 0 2px 2px;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12);
+  box-shadow: 0 2px 2px 0 $standard-box-shadow, 0 1px 5px 0 $standard-box-shadow;
   margin: 0.5rem 1rem 2rem;
   transition: box-shadow 0.25s;
 }

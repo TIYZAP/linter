@@ -1,0 +1,139 @@
+// COMMENT TO FORCE COMMIT
+$line-height: 1.4;
+$font-color: #646569;
+$font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-family-sans-serif: $font-family;
+$apex-new-light: ApexNewLight;
+$font-size-base: 15px;
+$font-size-base-literal: 15;
+$default-background: #fff;
+$content-body-background: #f5f5f5;
+$secondary-background: lighten($content-body-background, 2);
+$default-black: #000;
+$style-light-dotted-top-line: #d5d5d5;
+$style-light-dotted-bottom-line: #666;
+
+$link-color: #333;
+$link-hover-color: #33b5e5;
+$link-alternate: #5073f4;
+$link-visited-color: #551a8b;
+$selected-font-color: $default-background;
+$selected-background-color: #a4e6ff;
+$invalid-background-color: #f0dddd;
+$table-header-font-weight: 500;
+$table-header-font-color: $font-color;
+
+$style-primary: #5cd8db;
+$style-primary-light: #8ce2e5;
+$style-primary-lighter: #3d93a9;
+$style-primary-darker: #1871b4;
+$style-active:  #ffc71e;
+$style-active-alt: #ffba32;
+$style-active-dark:  #ffb31f;
+$style-active-light:  #ffd76a;
+$style-mustard-400: #ffce47;
+$style-inactive-gray: #d0d0d0;
+$style-required: #464646;
+$style-required-light: #a2a3a5;
+
+$style-font-grey: $font-color;
+$style-warning-color: #ff4040;
+
+$border-menu-color: darken($content-body-background, 9);
+$graph-line-y: lighten($default-black, 83.5);
+$graph-line-x: lighten($default-black, 60.5);
+$label-header-color: darken($content-body-background, 12.5);
+
+$nav-current-color: $default-background;
+$nav-current-background-color: #66cce6;
+
+$color-cost: #98cc3d;
+$sidebar-border-color: #bababa;
+$sidebar-shadow-color: #ccc;
+$sidebar-shadow-color-alt: #c5c5c7;
+$sidebar-background-color: #474350;
+$sidebar-spacer-style: 2px solid rgba(255, 255, 255, 0.2);
+$filter-header-color: $default-background;
+$filter-header-background-color: #b3b3b3;
+$filter-label-color: $style-primary-light;
+$filter-disabled-color: #b3b3b3;
+
+$biomarker-background-color: #deedef;
+$biomarker-alt-background-color: #50d7f4;
+
+$biomarker-healthy-background-color: #00cc7f;
+$biomarker-borderline-background-color: #ffc71e;
+$biomarker-at-risk-background-color: #ff1851;
+$biomarker-unknown-background-color: #dcdcdc;
+
+$employee-fill-color: #166785;
+$spouse-fill-color: #f243ad;
+$dependent-fill-color: #9c5bf5;
+
+$scoreboard-card-font-color: #888;
+
+$green: #080;
+$white: #fff;
+$red: #f00;
+//effects/special styles
+$standard-transition: all 500ms cubic-bezier(.455, .030, .515, .955);
+$standard-box-shadow-color: rgba(0, 0, 0, .2);
+$standard-box-shadow: 0 1px 2px 1px $standard-box-shadow-color;
+
+// bootstrap overides
+$body-bg: $content-body-background;
+$text-color: $font-color;
+$font-family-sans-serif: $font-family;
+
+// colors
+
+$gray-base:              #000;
+$gray-darker:            lighten($gray-base, 13.5%); // #222
+$gray-dark:              lighten($gray-base, 20%);   // #333
+$gray-darken:            lighten($gray-base, 29);
+$gray:                   lighten($gray-base, 33.5%); // #555
+$gray-alt:               #a8a8aa;
+$gray-light:             lighten($gray-base, 40%); // #666
+$gray-light1:            lighten($gray-base, 46.7%); // #777
+$gray-light2:            lighten($gray-base, 60.7843); // #9b9b9b
+$gray-light3:            lighten($gray-base, 89);
+$gray-lighter:           lighten($gray-base, 93.5%); // #eee
+
+
+$brand-primary:         $style-primary; // #337ab7
+$brand-primary-dark:    #387485;
+$brand-primary-light:   #3dbfb1;
+
+$brand-healthy:         #99ca48;
+$brand-success:         $biomarker-healthy-background-color;
+$brand-info:            lighten($style-active, 33%);
+$brand-info-dark:       #6a6f29;
+$brand-info-darker:     #294318;
+$brand-warning:         #ef4323;
+$brand-danger:          $biomarker-at-risk-background-color;
+$confirm-delete:        #ce0b24;
+$filter-modal-shadow:   rgba(0, 0, 0, 0.39);
+$filter-dialog-shadow:  rgba(0, 0, 0 , 0.2);
+
+$pdf-footer-color: #231f20;
+$pdf-total-claim: #404041;
+$progress-value: #57585a;
+$heart-risk: #47c8f1;
+$pulmonary: #96288d;
+$diabetes: #f68d29;
+
+$previous-healthy: #a3cf9a;
+$present-healthy: #40ae49;
+$previous-borderline: #fff880;
+$present-borderline: #fff101;
+$previous-risk: #e89194;
+$present-risk: #d1232a;
+$previous-unknown: #b1b2b4;
+$present-unknown: #646569;
+
+$back-color: #fff;
+$pdf-back-color: #231f20;
+$table-border-color: #d8d8d8;
+$thick-border-color: #e6e6e6;
+$thin-border-color: #f5f5f5;
+$snackbar-black: #323232;
