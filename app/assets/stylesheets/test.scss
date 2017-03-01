@@ -1,0 +1,103 @@
+.health-iq {
+  height: 100%;
+  overflow: scroll;
+  padding-bottom: 1px;
+  width: 100%;
+}
+
+.health-iq-container {
+  padding: 10px;
+}
+
+.header {
+  font-weight: bold;
+  height: 2em;
+  line-height: 2em;
+  padding-left: 1em;
+  width: 100%;
+}
+
+.header-2 {
+  border-bottom: 1px solid $table-border-color;
+  font-weight: bold;
+  height: 2.5em;
+  line-height: 2.5em;
+  padding-left: 1em;
+  width: 100%;
+}
+
+.glyphicon {
+  float: left;
+  font-size: 1.2em;
+  height: 35px;
+  line-height: 35px;
+  margin-right: 6px;
+  padding-left: 1em;
+  top: 3px;
+}
+
+.body {
+  padding-left: 1em;
+}
+
+.body-1 {
+  float: left;
+}
+
+.body-2 {
+  float: right;
+  padding-right: 10em;
+}
+
+%card {
+  background-color: $white;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  box-shadow: 0 2px 2px 0 $standard-box-shadow-color, 0 1px 5px 0 $standard-box-shadow-color;
+  margin: 0.5rem 1rem 2rem;
+  transition: box-shadow 0.25s;
+}
+
+.iq-health {
+  @extend %card;
+  min-height: 100px;
+}
+
+.filtered-population-information {
+  @extend %card;
+  min-height: 150px;
+}
+
+.population-metrics {
+  @extend %card;
+  min-height: 200px;
+}
+
+.claims-cost-breakdown {
+  @extend %card;
+  min-height: 200px;
+}
+
+.sources-of-care {
+  @extend %card;
+  min-height: 200px;
+}
+
+.gaps-in-care-compliance {
+  @extend %card;
+  min-height: 200px;
+}
+
+.utilization-metrics {
+  @extend %card;
+  min-height: 250px;
+}
+
+.table {
+  height: 2em;
+  line-height: 2em;
+  padding-left: 1em;
+  width: 100%;
+}

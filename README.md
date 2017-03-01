@@ -1,6 +1,6 @@
-# HOUND(ZAP) - Personal test environment...
+# Hound(ZAP) - Personal test environment...
 
-This is a mini test environment for HOUND!
+This is a mini test environment for Hound!
 
 How to use:
 
