@@ -19,5 +19,33 @@
 
 # Ignore Byebug command history file.
 .byebug_history
+*.rbc
 *.sassc
 .sass-cache
+capybara-*.html
+/.bundle
+/vendor/bundle
+/log/*
+/tmp/*
+/db/*.sqlite3
+/public/system/*
+coverage/
+/spec/tmp/*
+**.orig
+rerun.txt
+pickle-email-*.html
+
+.rvmrc
+
+.DS_Store
+public/assets/
+
+# VIM - Vi IMproved
+*.swp
+*~
+.tddium*
+/.idea
+
+monitor_branch.last
+.solano*
+20130603_DataLoadTest.zip
