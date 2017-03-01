@@ -1,0 +1,105 @@
+.life-iq {
+  height: 100%;
+  overflow: scroll;
+  padding-bottom: 1px;
+  width: 100%;
+}
+
+.life-iq-container {
+  padding: 10px;
+}
+
+.header {
+  height: 2em;
+  line-height: 2em;
+  padding-left: 1em;
+  width: 100%;
+  font-weight: bold;
+}
+
+.header-2 {
+  height: 2.5em;
+  line-height: 2.5em;
+  padding-left: 1em;
+  width: 100%;
+  font-weight: bold;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.glyphicon {
+  top: 3px;
+  height: 35px;
+  line-height: 35px;
+  margin-right: 6px;
+  font-size: 1.2em;
+  float: left;
+  padding-left: 1em;
+}
+
+.italic {
+  font-style: italic;
+  font-size: 10px
+}
+
+.body {
+  padding-left: 1em;
+}
+
+.body-1 {
+  float: left;
+}
+
+.body-2 {
+  float: right;
+  padding-right: 10em;
+}
+
+%card {
+  background-color: $white;
+  border-radius: 0 0 2px 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12);
+  margin: .5rem 1rem 2rem;
+  transition: box-shadow 0.25s;
+}
+
+.iq-life {
+  @extend %card;
+  min-height: 100px;
+}
+
+.filtered-pop-info {
+  @extend %card;
+  min-height: 150px;
+}
+
+.pop-metrics {
+  @extend %card;
+  min-height: 200px;
+}
+
+.money-spend-breakdown {
+  @extend %card;
+  min-height: 200px;
+}
+
+.sources-of-news  {
+  @extend %card;
+  min-height: 200px;
+}
+
+.fake-in-news -compliance {
+  @extend %card;
+  min-height: 200px;
+}
+
+.all-metrics {
+  @extend %card;
+  min-height: 250px;
+}
+
+.table {
+  height: 2em;
+  line-height: 2em;
+  padding-left: 1em;
+  width: 100%;
+}
