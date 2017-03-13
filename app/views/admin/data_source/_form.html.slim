@@ -1,0 +1,21 @@
+= form_for [:admin,@admin_data_source] do |f|
+  - if @admin_data_source.errors.any?
+    #error_explanation
+      h2 = "#{pluralize(@admin_data_source.erros.count, "error")} prohibited this Data Source from being saved:"
+      ul
+        - @admin_data_source.errors.full_messages.each do |message|
+        li = message
+
+  - @admin_data_source.attributes.except('id', 'created_at', 'updated_at').each do |attr_name, attr_value|
+    div style="float:left,padding: 10px;"
+      = attr_name.to_s.humanize
+      br
+      = f.text_field attr_name.to_s, class: 'form-control', placeholder: attr_value.to_s
+
+  div.clear
+  br
+  .actions
+  = f.submit 'Submit', class: 'btn btn-primary'
+  br
+  br
+  = link_to "Cancel", admin_data_sources_path ,class: "btn btn-default"

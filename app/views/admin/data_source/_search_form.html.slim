@@ -1,0 +1,7 @@
+  div class="form-inline" style="float: right;"
+    = search_form_for [:admin, @search] do |f|
+      div class="form-group"
+        = f.label :name_cont, "Search:"
+        br
+        = f.search_field :name_cont, class: "form-control", placeholder: "Data Source Name", style: "width: 220px;"
+        = f.submit class: "btn btn-primary"
